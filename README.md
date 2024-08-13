@@ -1,10 +1,10 @@
-##Trabajando con el tipo string 
+## Trabajando con el tipo string 
 
-###¿String es una tipo por valor o un tipo por referencia?
+### ¿String es una tipo por valor o un tipo por referencia?
 
 String es un tipo por referencia, dependiendo el contexto su comportamiento puede parecerse al tipo por valor porque no puede modificarse despues de su creacion. Cada vez que se "modifica" una cadena, en realidad se crea una nueva instancia de la cadena y se cambia la referencia para apuntar a esta nueva instancia.
 
-###¿Qué secuencias de escape tiene el tipo string?
+### ¿Qué secuencias de escape tiene el tipo string?
 
 **\\** - Barra invertida (\): Para insertar una barra invertida en una cadena
 **\n** - Nueva línea (line feed): Inserta un salto de linea
