@@ -65,15 +65,17 @@ una vez que termine de realizar la operación le pregunte si desea realizar otro
     do
     {   
        
-        Console.WriteLine("\nSELECCIONE LA OPERACION : \n 1:SUMAR \n 2:RESTAR \n 3:MULTIPLICAR \n 4:DIVIDIR");
-
+        Console.WriteLine("\nSELECCIONE LA OPERACION : \n 1:SUMAR \n 2:RESTAR \n 3:MULTIPLICAR \n 4:DIVIDIR\n 4:SALIR ");
+ 
         do
         {          
             Console.WriteLine("\nIngresar opcion:");
             entrada = Console.ReadLine();                
         } while (!int.TryParse(entrada, out operacion) || (operacion != 1 && operacion!= 2 && operacion != 3 && operacion != 4 && operacion != 5) );
         
-
+        if (operacion != 5)
+        {
+            
             do
             {
                 Console.WriteLine("\nIngrese el primer numero:");
@@ -121,7 +123,7 @@ una vez que termine de realizar la operación le pregunte si desea realizar otro
             salir = false;
         }
 
-    } while (salir);
+} while (salir);
 
 
  
