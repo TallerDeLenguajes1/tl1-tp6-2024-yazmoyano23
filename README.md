@@ -18,7 +18,7 @@ String es un tipo por referencia, dependiendo el contexto su comportamiento pued
 
 **\0** - Nulo (\0): Representa el carácter nulo (valor ASCII 0).
 
-###¿Qué sucede cuando utiliza el carácter @ y $ antes de una cadena de texto?
+### ¿Qué sucede cuando utiliza el carácter @ y $ antes de una cadena de texto?
 
 El carácter @ convierte una cadena en una cadena verbatim, esto es:
 - Ignora las secuencias de escape: Las barras invertidas (\) se tratan como caracteres literales y no como el inicio de una secuencia de escape.
